@@ -119,11 +119,40 @@ nav {
 
 
 /* 
-<====== Navigation ======>
+<====== Footer ======>
 */
 footer {
     padding: 10px 0;
     background: linear-gradient(rgb(0, 0, 0 ,0.9),rgb(5, 5, 5,0.9)),url('https://media.istockphoto.com/vectors/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-on-vector-id1160720443?k=20&m=1160720443&s=612x612&w=0&h=tkTnYVL5jBOVK_wFgrixKsYzWVN7-x4AoEbg9ky7hoE=');
+}
+footer h2 {
+    margin: 20px 0 0;
+    font-size: 34px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 47%);
+}
+footer h4 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+footer p {
+    margin: 4px 0;
+    font-family: 'Calibri';
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.mapouter {
+    margin: 10px auto;
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 50%;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
 }
 .contactapps {
     display: flex;
@@ -140,11 +169,8 @@ footer {
     z-index: 1;
 
 }
-#contact p{
-    text-shadow: 1px 1px 1px rgb(0 0 0 / 47%);
-}
 #contact a img {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 80px;
     transition: 250ms;
 }
