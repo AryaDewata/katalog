@@ -1,0 +1,153 @@
+/* 
+<====== Body ======>
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(133deg, rgb(0, 184, 255, 0.8) 0%, rgb(255, 56, 175, 0.8) 118.08%), url('https://media.istockphoto.com/vectors/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-on-vector-id1160720443?k=20&m=1160720443&s=612x612&w=0&h=tkTnYVL5jBOVK_wFgrixKsYzWVN7-x4AoEbg9ky7hoE=');
+    overflow-x: hidden;
+    
+}
+
+/* 
+<====== Navigation ======>
+*/
+nav {    
+    box-shadow: 0px 1px 5px 0px #6e6e6e;
+    transition: .3s;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    backdrop-filter: blur(2px);
+    box-shadow: 1px 1px 2px grey;
+}
+
+/* Logo */
+.logo, .menu {
+    padding: 10px 20px;
+    width: 50%;
+    display: flex;
+    column-gap: 15px;
+}
+
+.logo img {
+    width: 40px;
+    height: 50px;
+}
+.logo .smktilogo{
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1, .menu a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Menu */
+.menu {
+    padding-right: 60px;
+    justify-content: right;
+}
+
+.menu a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* 
+<====== Navigation ======>
+*/
+.container {
+    padding: 40px 20px;
+    box-shadow: 1px 2px 3px black;
+ 
+}
+
+.header-text {
+    margin: 60px 0 20px;
+    color: white;
+    font-size: 28px;
+    text-shadow: 1px 1px black;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.card {
+    width: 22%;
+    /* height: 250px; */
+    overflow: hidden;
+    background: white;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    box-shadow: 7px 9px 9px 0px rgb(0 0 0 / 47%);
+    text-decoration: none;
+    transition: 250ms;
+    color: black;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+}
+
+.card h2 {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* 
+<====== Navigation ======>
+*/
+footer {
+    padding: 10px 0;
+    background: linear-gradient(rgb(0, 0, 0 ,0.9),rgb(5, 5, 5,0.9)),url('https://media.istockphoto.com/vectors/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-on-vector-id1160720443?k=20&m=1160720443&s=612x612&w=0&h=tkTnYVL5jBOVK_wFgrixKsYzWVN7-x4AoEbg9ky7hoE=');
+}
+.contactapps {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#contact {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    padding-top: 50px;
+    z-index: 1;
+
+}
+#contact p{
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 47%);
+}
+#contact a img {
+    padding-top: 30px;
+    width: 80px;
+    transition: 250ms;
+}
+#contact a img:hover {
+    transform: scale(1.2);
+}
