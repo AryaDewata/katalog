@@ -51,6 +51,10 @@ nav {
     justify-content: center;
 }
 
+.menu a:hover {
+    text-decoration: underline;
+}
+
 /* Menu */
 .menu {
     padding-right: 60px;
@@ -122,11 +126,11 @@ nav {
 <====== Footer ======>
 */
 footer {
-    padding: 10px 0;
+    padding: 0 20% 20px;
     background: linear-gradient(rgb(0, 0, 0 ,0.9),rgb(5, 5, 5,0.9)),url('https://media.istockphoto.com/vectors/abstract-simple-geometric-vector-seamless-pattern-with-gold-line-on-vector-id1160720443?k=20&m=1160720443&s=612x612&w=0&h=tkTnYVL5jBOVK_wFgrixKsYzWVN7-x4AoEbg9ky7hoE=');
 }
 footer h2 {
-    margin: 20px 0 0;
+    margin: 50px 0 0;
     font-size: 34px;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 47%);
 }
@@ -135,7 +139,7 @@ footer h4 {
     font-size: 20px;
 }
 footer p {
-    margin: 4px 0;
+    margin: 4px -10px;
     font-family: 'Calibri';
     font-weight: normal;
     font-size: 18px;
@@ -146,7 +150,7 @@ footer p {
     position: relative;
     text-align: right;
     height: 350px;
-    width: 50%;
+    width: 100%;
 }
 .gmap_canvas {
     overflow: hidden;
